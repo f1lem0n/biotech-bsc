@@ -5,7 +5,6 @@
 \usepackage[british, polish]{babel}
 \usepackage{geometry}
 \usepackage{gensymb} %pakiet symboli
-\usepackage{upgreek} %pakiet liter greckich bez italica
 \usepackage[upgreek, LGRgreek]{mathastext}
 \usepackage{bm}
 \usepackage{lipsum}
@@ -54,21 +53,23 @@
     \end{abstract}
 \end{otherlanguage}
 
-\section{Wstęp}
+\section{Wstęp}\label{sec:intro}
 MFC (\textit{ang.} Microbial Fuel Cell) to urządzenia umożliwiające generowanie energii elektrycznej z wykorzystaniem
-mikroorganizmów. Należą one do szerszej klasy urządzeń BES (\textit{ang.} Bio-Electrochemical Systems).
+mikroorganizmów.
+Należą one do szerszej klasy urządzeń BES (\textit{ang.} Bio-Electrochemical Systems) \cite{}.
 W ostatniej dekadzie zainteresowanie systemami BES, a w szczególności MFC wzrosło diametralnie, co odzwierciedla wzrost
-liczby związanych z nimi publikacji, przedstawiony na rys.~\ref{fig:1}. Pomysł wykorzystania mikroorganizmów do
-generowania elektryczności przypisuje się Michaelowi Potterowi~\cite{Potter1911}, natomiast idea "elektryczności
-zwierząt", a więc elektryczności związanej z układami ożywionymi, sięga aż XVIII wieku. W systemach MFC, do generowania
-elektryczności, wykorzystuje się utleniająco-redukujący charakter reakcji metabolicznych przeprowadzanych przez
-mikroorganizmy, które możemy podzielić na rezydujące na powierzchni anody elektrogeny (uwalniające elektrony)
-oraz zasiedlające katodę elektrotrofy (pobierające i wykorzystujące elektrony).
+liczby związanych z nimi publikacji, przedstawiony na rys.~\ref{fig:1}.
+Pomysł wykorzystania mikroorganizmów do generowania elektryczności przypisuje się Michaelowi Potterowi~\cite{Potter1911},
+natomiast idea ,,elektryczności zwierząt'', a więc elektryczności związanej z układami ożywionymi, sięga aż XVIII wieku.
+W systemach MFC, do generowania elektryczności, wykorzystuje się utleniająco-redukujący charakter reakcji metabolicznych
+przeprowadzanych przez mikroorganizmy, które możemy podzielić na rezydujące na powierzchni anody elektrogeny
+(uwalniające elektrony) oraz zasiedlające katodę elektrotrofy (pobierające i wykorzystujące elektrony).
+
 
 \begin{figure}[!b]
     \centering
-    \includegraphics[width=\textwidth]{figures/pub.png}
-    \caption{Liczba publikacji z ,,MFC'' lub ,,Microbial Fuel Cell'' w tytule w latach 1958-2021.}
+    \includegraphics[width=\textwidth]{figures/pub}
+    \caption{Liczba publikacji z ,,MFC'' lub ,,Microbial Fuel Cell'' w tytule w latach 1958--2021.}
     \label{fig:1}
 \end{figure}
 
@@ -80,13 +81,13 @@ oraz zasiedlające katodę elektrotrofy (pobierające i wykorzystujące elektron
 % \end{figure}
 
 
-\section{Metody}
+\section{Metody}\label{sec:methods}
 \subsection{metoda 1}
 \lipsum[2]
-\subsection{experimento uno}
+\subsection{eksperyment uno}
 \lipsum[3-5]
 
-\section{Analiza Danych}
+\section{Analiza Danych}\label{sec:analysis}
 \subsection{dane}
 \lipsum[2-4]
 \subsection{więcej danych}
@@ -95,7 +96,7 @@ oraz zasiedlające katodę elektrotrofy (pobierające i wykorzystujące elektron
 \lipsum[2-4]
 
 \bibliographystyle{plain}
-\bibliography{main.bib}
+\bibliography{main}
 
 
 
