@@ -15,6 +15,7 @@
 \usepackage[monochrome]{xcolor}
 \usepackage{mathptmx}
 \usepackage{fontspec}
+\usepackage{textcomp}
 
 %SETTING---------------------------
 %\defaultfontfeatures{LetterSpace=5}
@@ -32,88 +33,27 @@
 \input{titlepage}
 
 \newpage
+\thispagestyle{empty}
+\begin{flushright}
+    Dziękuję Panu Profesorowi Dariuszowi Dzidze\\
+    za cierpliwość i wyrozumiałość, cenne rady\\
+    i pomoc w realizacji eksperymentów.
+\end{flushright}
+\vspace*{\fill}
+\begin{flushleft}
+    \textit{Non omnis moriar!}
+\end{flushleft}
 
-% \begin{flushright}
-% strona na podziękowania (i jakieś łacińskie motto dla picu)
-% \end{flushright}
+
+\newpage
+\setcounter{page}{3}
 
 \tableofcontents
 
-\begin{abstract}
-    \noindent
-    \lipsum[1]
-\end{abstract}
-
-\rule{\textwidth}{0.4pt}
-
-\begin{otherlanguage}{british}
-    \begin{abstract}
-        \noindent
-        \lipsum[1] 
-    \end{abstract}
-\end{otherlanguage}
+\input{abstracts.tex}
 
 \section{Wstęp teoretyczny}\label{sec:wstęp-teoretyczny}
-
-\subsection{Historia}\label{subsec:historia}
-MFC (\textit{ang.} Microbial Fuel Cell) to urządzenia umożliwiające
-generowanie energii elektrycznej z wykorzystaniem mikroorganizmów.
-Należą one do szerszej klasy urządzeń BES (\textit{ang.}
-Bio-Electrochemical Systems)~\cite{Santoro2017}.
-Pomysł wykorzystania mikroorganizmów do generowania elektryczności
-przypisuje się Michaelowi Potterowi~\cite{Potter1911},
-natomiast idea ,,elektryczności zwierząt'', a więc elektryczności
-związanej z układami ożywionymi, sięga aż XVIII wieku~\cite{Santoro2017}.
-
-\subsection{Zastosowania MFC}\label{subsec:zastosowania-mfc}
-W ostatniej dekadzie zainteresowanie systemami BES,
-a w szczególności MFC, wzrosło diametralnie, co odzwierciedla wzrost
-liczby związanych z nimi publikacji przedstawiony na rys.~\ref{fig:1}.
-Wysokie zainteresowanie technologią MFC w ostatnich latach wynika
-z potencjału do wykorzystania ich w celu jednoczesnego oczyszczania
-wód ściekowych, generowania energii elektrycznej oraz cennej biomasy,
-która mogłaby następnie zostać wykorzystana w biorafineriach do produkcji
-biopaliw, biopolimerów czy biochemikaliów.
-
-\begin{figure}[!b]
-    \centering
-    \includegraphics[width=\textwidth]{figures/publications}
-    \caption{
-        Liczba publikacji z ,,MFC'' lub
-        ,,Microbial Fuel Cell'' w tytule w latach 1958--2021.
-        (Dane pochodzą z serwisu \url{https://webofscience.com})
-    }
-    \label{fig:1}
-\end{figure}
-
-\subsection{Podstawy molekularne}\label{subsec:podstawy-molekularne}
-W systemach MFC, do generowania elektryczności, wykorzystuje się
-utleniająco-redukujący charakter reakcji metabolicznych
-przeprowadzanych przez mikroorganizmy, które możemy podzielić
-na rezydujące na powierzchni anody elektrogeny (uwalniające na nią
-elektrony) oraz zasiedlające katodę elektrotrofy
-(pobierające i wykorzystujące elektrony)~\cite{AlSayed2020}.
-Elektrogeny przeprowadzają procesy oddychania beztlenowego,
-utleniając znajdujące się w pożywce związki organiczne oraz
-wykorzystując anodę jako ostateczne źródło elektronów.
-Zdolność do transferu elektronów na powierzchnię metali (lub
-innych przewodników) wynika z naturalnego przystosowania tych
-organizmów do życia na powierzchni rud metali i wykorzystania
-ich jako ostateczny akceptor elektronów.
-Transfer elektronów na elektrodę może zachodzić na różne
-sposoby~\cite{Santoro2017}:
-
-\begin{enumerate}
-    \item Transport bezpośredni (z wykorzystaniem cytochromu c);
-    \item Transport przez nano-przewody;
-    \item Transport za pośrednictwem mediatorów redox;
-\end{enumerate}
-
-Choć nie poznano jeszcze dokładnie molekularnych mechanizmów
-transferu elektronów, wiadomo, że najwolniejszym oraz
-niekorzystnym z punktu widzenia technologicznego sposobem jest
-transport za pośrednictwem mediatorów redox, gdyż jest znacznie
-ograniczony szybkością dyfuzji.
+\input{introduction}
 
 \section{Metody}\label{sec:metody}
 
@@ -130,8 +70,12 @@ ograniczony szybkością dyfuzji.
 \subsection{jeszcze więcej zasranych danych}
 \lipsum[2-4]
 
-\bibliographystyle{plain}
-\bibliography{main}
+\begin{otherlanguage}{polish}
+    \newpage
+    \thispagestyle{empty}
+    \bibliographystyle{plain}
+    \bibliography{main}
+\end{otherlanguage}
 
 
 

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.4.26)  27 APR 2022 17:34
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.4.26)  28 APR 2022 00:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -443,6 +443,9 @@ X
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )
 (D:\FILES\PROGRAM_FILES\MiKTeX\tex/latex/fontspec\fontspec.cfg)))
+(D:\FILES\PROGRAM_FILES\MiKTeX\tex/latex/base\textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
 
 Package fontspec Info: Font family 'TimesNewRoman(0)' created for font 'Times
 (fontspec)             New Roman' with options [Ligatures=TeX].
@@ -478,40 +481,40 @@ text;"
  (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 3
-1.
+2.
 
 (D:\FILES\PROGRAM_FILES\MiKTeX\tex/latex/base\ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for LGR/lmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for LGR/lmr/m/n on input line 32.
 LaTeX Font Info:    Trying to load font information for LGR+lmr on input line 3
-1.
+2.
 
 (D:\FILES\PROGRAM_FILES\MiKTeX\tex/latex/cbfonts-fd\lgrlmr.fd
 File: lgrlmr.fd 2017/07/29 v1.2 Scalable Greek Latin Modern Regular
 )
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -547,18 +550,19 @@ LaTeX Font Info:    ... okay on input line 31.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \celsius on input line 31.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 31.
-
-
-Package gensymb Warning: Not defining \perthousand.
-
-LaTeX Info: Redefining \ohm on input line 31.
-Package gensymb Info: Using \upOmega for \ohm on input line 31.
-
-Package gensymb Warning: Not defining \micro.
-
-Package hyperref Info: Link coloring OFF on input line 31.
+\symgns@font=\mathgroup14
+LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
+(Font)                  TS1/TimesNewRoman(0)/m/n --> TS1/TimesNewRoman(0)/b/n o
+n input line 32.
+Package gensymb Info: Math companion symbols declared on input line 32.
+LaTeX Info: Redefining \degree on input line 32.
+LaTeX Info: Redefining \celsius on input line 32.
+Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
+erthousand on input line 32.
+LaTeX Info: Redefining \ohm on input line 32.
+Package gensymb Info: Using \textohm for \ohm on input line 32.
+Package gensymb Info: Using \textmu for \micro on input line 32.
+Package hyperref Info: Link coloring OFF on input line 32.
 (D:\FILES\PROGRAM_FILES\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -570,9 +574,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count290
 )
-LaTeX Info: Redefining \ref on input line 31.
-LaTeX Info: Redefining \pageref on input line 31.
-LaTeX Info: Redefining \nameref on input line 31.
+LaTeX Info: Redefining \ref on input line 32.
+LaTeX Info: Redefining \pageref on input line 32.
+LaTeX Info: Redefining \nameref on input line 32.
 
 (main.out) (main.out)
 \@outlinefile=\write3
@@ -593,7 +597,16 @@ color push gray 0
 color pop
 color push gray 0
 color pop
-]) (main.toc
+]) [1
+color push gray 0
+color pop
+color push gray 0
+color pop
+color push gray 0
+color pop
+color push gray 0
+color pop
+] (main.toc
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
  5.
 
@@ -633,11 +646,19 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
+LaTeX Font Info:    Trying to load font information for TS1+TimesNewRoman(0) on
+ input line 5.
+LaTeX Font Info:    No file TS1TimesNewRoman(0).fd. on input line 5.
+
+
+LaTeX Font Warning: Font shape `TS1/TimesNewRoman(0)/m/n' undefined
+(Font)              using `TS1/cmr/m/n' instead on input line 5.
+
 )
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [1
+ (abstracts.tex) (introduction.tex [3
 color push gray 0
 color pop
 color push gray 0
@@ -669,14 +690,14 @@ color pop
 ]
 File: figures/publications.png Graphic file (type bmp)
 <figures/publications.png>
- [2
+ [4
 color push gray 0
 color pop
 color push gray 0
 color pop
 color push gray 0
 color pop
-] [3
+]) [5
 color push gray 0
 color pop
 color push gray 0
@@ -687,18 +708,25 @@ color push gray 0
 color pop
 color push gray 0
 color pop
-]
-[4
+] [6
 color push gray 0
 color pop
 color push gray 0
 color pop
-] [5
+] [7
 color push gray 0
 color pop
 color push gray 0
 color pop
-] (main.bbl) [6
+] [8
+color push gray 0
+color pop
+color push gray 0
+color pop
+] (main.bbl)
+[9
+color push gray 0
+color pop
 color push gray 0
 color pop
 color push gray 0
@@ -717,12 +745,12 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: A445AFCE6BCC8544EE7CE3CE4576F851;1386.
  ) 
 Here is how much of TeX's memory you used:
- 14323 strings out of 410939
- 276824 string characters out of 2826371
- 738600 words of memory out of 3000000
- 34883 multiletter control sequences out of 15000+600000
- 482817 words of font info for 87 fonts, out of 8000000 for 9000
+ 14386 strings out of 410939
+ 278078 string characters out of 2826371
+ 738663 words of memory out of 3000000
+ 34932 multiletter control sequences out of 15000+600000
+ 483830 words of font info for 90 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 72i,5n,85p,461b,492s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 72i,5n,85p,461b,494s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on D:/_PROJECTS_\GIT\licencjat\manuscript\main.pdf (7 pages).
+Output written on D:/_PROJECTS_\GIT\licencjat\manuscript\main.pdf (9 pages).
