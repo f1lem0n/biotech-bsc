@@ -53,41 +53,78 @@
     \end{abstract}
 \end{otherlanguage}
 
-\section{Wstęp}\label{sec:intro}
-MFC (\textit{ang.} Microbial Fuel Cell) to urządzenia umożliwiające generowanie energii elektrycznej z wykorzystaniem
-mikroorganizmów.
-Należą one do szerszej klasy urządzeń BES (\textit{ang.} Bio-Electrochemical Systems)~\cite{Santoro2017}.
-W ostatniej dekadzie zainteresowanie systemami BES, a w szczególności MFC wzrosło diametralnie, co odzwierciedla wzrost
-liczby związanych z nimi publikacji, przedstawiony na rys.~\ref{fig:1}.
-Pomysł wykorzystania mikroorganizmów do generowania elektryczności przypisuje się Michaelowi Potterowi~\cite{Potter1911},
-natomiast idea ,,elektryczności zwierząt'', a więc elektryczności związanej z układami ożywionymi, sięga aż XVIII wieku.
-W systemach MFC, do generowania elektryczności, wykorzystuje się utleniająco-redukujący charakter reakcji metabolicznych
-przeprowadzanych przez mikroorganizmy, które możemy podzielić na rezydujące na powierzchni anody elektrogeny
-(uwalniające elektrony) oraz zasiedlające katodę elektrotrofy (pobierające i wykorzystujące elektrony).
+\section{Wstęp teoretyczny}\label{sec:wstęp-teoretyczny}
 
+\subsection{Historia}\label{subsec:historia}
+MFC (\textit{ang.} Microbial Fuel Cell) to urządzenia umożliwiające
+generowanie energii elektrycznej z wykorzystaniem mikroorganizmów.
+Należą one do szerszej klasy urządzeń BES (\textit{ang.}
+Bio-Electrochemical Systems)~\cite{Santoro2017}.
+Pomysł wykorzystania mikroorganizmów do generowania elektryczności
+przypisuje się Michaelowi Potterowi~\cite{Potter1911},
+natomiast idea ,,elektryczności zwierząt'', a więc elektryczności
+związanej z układami ożywionymi, sięga aż XVIII wieku~\cite{Santoro2017}.
+
+\subsection{Zastosowania MFC}\label{subsec:zastosowania-mfc}
+W ostatniej dekadzie zainteresowanie systemami BES,
+a w szczególności MFC, wzrosło diametralnie, co odzwierciedla wzrost
+liczby związanych z nimi publikacji przedstawiony na rys.~\ref{fig:1}.
+Wysokie zainteresowanie technologią MFC w ostatnich latach wynika
+z potencjału do wykorzystania ich w celu jednoczesnego oczyszczania
+wód ściekowych, generowania energii elektrycznej oraz cennej biomasy,
+która mogłaby następnie zostać wykorzystana w biorafineriach do produkcji
+biopaliw, biopolimerów czy biochemikaliów.
 
 \begin{figure}[!b]
     \centering
     \includegraphics[width=\textwidth]{figures/publications}
-    \caption{Liczba publikacji z ,,MFC'' lub ,,Microbial Fuel Cell'' w tytule w latach 1958--2021.}
+    \caption{
+        Liczba publikacji z ,,MFC'' lub
+        ,,Microbial Fuel Cell'' w tytule w latach 1958--2021.
+        (Dane pochodzą z serwisu \url{https://webofscience.com})
+    }
     \label{fig:1}
 \end{figure}
 
-% \begin{figure}[t]
-%     \centering
-%     \includegraphics{}
-%     \caption{Caption}
-%     \label{fig:my_label}
-% \end{figure}
+\subsection{Podstawy molekularne}\label{subsec:podstawy-molekularne}
+W systemach MFC, do generowania elektryczności, wykorzystuje się
+utleniająco-redukujący charakter reakcji metabolicznych
+przeprowadzanych przez mikroorganizmy, które możemy podzielić
+na rezydujące na powierzchni anody elektrogeny (uwalniające na nią
+elektrony) oraz zasiedlające katodę elektrotrofy
+(pobierające i wykorzystujące elektrony)~\cite{AlSayed2020}.
+Elektrogeny przeprowadzają procesy oddychania beztlenowego,
+utleniając znajdujące się w pożywce związki organiczne oraz
+wykorzystując anodę jako ostateczne źródło elektronów.
+Zdolność do transferu elektronów na powierzchnię metali (lub
+innych przewodników) wynika z naturalnego przystosowania tych
+organizmów do życia na powierzchni rud metali i wykorzystania
+ich jako ostateczny akceptor elektronów.
+Transfer elektronów na elektrodę może zachodzić na różne
+sposoby~\cite{Santoro2017}:
+
+\begin{enumerate}
+\item Transport bezpośredni (z wykorzystaniem cytochromu c);
+\item Transport przez nano-przewody;
+\item Transport za pośrednictwem mediatorów redox;
+\end{enumerate}
+
+Choć nie poznano jeszcze dokładnie molekularnych mechanizmów
+transferu elektronów, wiadomym jest, że najwolniejszym oraz
+niekorzystnym z punktu widzenia technologicznego sposobem jest
+transport za pośrednictwem mediatorów redox, gdyż jest znacznie
+ograniczony szybkością dyfuzji.
 
 
-\section{Metody}\label{sec:methods}
+
+\section{Metody}\label{sec:metody}
+
 \subsection{metoda 1}
 \lipsum[2]
 \subsection{eksperyment uno}
 \lipsum[3-5]
 
-\section{Analiza Danych}\label{sec:analysis}
+\section{Analiza Danych}\label{sec:analiza-danych}
 \subsection{dane}
 \lipsum[2-4]
 \subsection{więcej danych}
