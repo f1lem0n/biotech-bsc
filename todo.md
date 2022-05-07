@@ -1,6 +1,6 @@
 MANUSKRYPT:
-1. równania chemiczne jako \begin{equation}
-2. przeczytać cytowane artykuły (przynajmniej częściowo)
+1. przeczytać cytowane artykuły (przynajmniej częściowo)
+2. tabelka z konstruktami do suplementu
 
 EKSPERYMENTY:
 1. jednoczesne pomiary napięcia, OD i próbek do sporządzenia 

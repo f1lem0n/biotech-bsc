@@ -1,16 +1,18 @@
 \babel@toc {polish}{}
 \babel@toc {british}{}
 \babel@toc {polish}{}
-\contentsline {section}{\numberline {1}Wstęp teoretyczny}{4}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Historia}{4}{subsection.1.1}%
+\contentsline {section}{\numberline {1}Wstęp}{4}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Historia MFC}{4}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Zastosowania MFC}{4}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}Podstawy molekularne}{5}{subsection.1.3}%
-\contentsline {section}{\numberline {2}Metody}{5}{section.2}%
-\contentsline {subsection}{\numberline {2.1}metoda 1}{5}{subsection.2.1}%
+\contentsline {subsection}{\numberline {1.3}Podstawy molekularne działania MFC}{5}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Badania}{6}{subsection.1.4}%
+\contentsline {section}{\numberline {2}Metody}{6}{section.2}%
+\contentsline {subsection}{\numberline {2.1}metoda 1}{6}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}eksperyment uno}{6}{subsection.2.2}%
-\contentsline {section}{\numberline {3}Analiza Danych}{6}{section.3}%
-\contentsline {subsection}{\numberline {3.1}dane}{6}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}więcej danych}{7}{subsection.3.2}%
+\contentsline {section}{\numberline {3}Analiza danych}{7}{section.3}%
+\contentsline {subsection}{\numberline {3.1}dane}{7}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}więcej danych}{8}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}jeszcze więcej zasranych danych}{8}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Dyskusja wyników}{9}{section.4}%
 \babel@toc {polish}{}
 \babel@toc {polish}{}

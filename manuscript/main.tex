@@ -12,10 +12,11 @@
 \usepackage{graphicx}
 \usepackage{hyperref}
 \usepackage{seqsplit}
-\usepackage[monochrome]{xcolor}
+\usepackage[table, xcdraw]{xcolor}
 \usepackage{mathptmx}
 \usepackage{fontspec}
 \usepackage{textcomp}
+\usepackage{adjustbox}
 
 %SETTING---------------------------
 %\defaultfontfeatures{LetterSpace=5}
@@ -53,23 +54,17 @@
 
 \input{abstracts.tex}
 
-\section{Wstęp teoretyczny}\label{sec:wstęp-teoretyczny}
+\section{Wstęp}\label{sec:wstep}
 \input{introduction}
 
 \section{Metody}\label{sec:metody}
+\input{methodology}
 
-\subsection{metoda 1}
-\lipsum[2]
-\subsection{eksperyment uno}
-\lipsum[3-5]
+\section{Analiza danych}\label{sec:analiza-danych}
+\input{analysis}
 
-\section{Analiza Danych}\label{sec:analiza-danych}
-\subsection{dane}
-\lipsum[2-4]
-\subsection{więcej danych}
-\lipsum[2-4]
-\subsection{jeszcze więcej zasranych danych}
-\lipsum[2-4]
+\section{Dyskusja wyników}\label{sec:dyskusja}
+\input{discussion}
 
 \begin{otherlanguage}{polish}
     \newpage
@@ -78,7 +73,8 @@
     \bibliography{ref}
 \end{otherlanguage}
 
-
+\newpage
+\input{suplement.tex}
 
 \end{document}
 

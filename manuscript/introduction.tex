@@ -1,4 +1,4 @@
-\subsection{Historia}\label{subsec:historia}
+\subsection{Historia MFC}\label{subsec:historia}
 MFC (\textit{ang.} Microbial Fuel Cell) to urządzenia umożliwiające
 generowanie energii elektrycznej z wykorzystaniem mikroorganizmów.
 Należą one do szerszej klasy urządzeń BES (\textit{ang.}
@@ -7,22 +7,13 @@ Pomysł wykorzystania mikroorganizmów do generowania elektryczności
 przypisuje się Michaelowi Potterowi~\cite{Potter1911},
 natomiast idea ,,elektryczności zwierząt'', a więc elektryczności
 związanej z układami ożywionymi, sięga aż XVIII wieku~\cite{Santoro2017}.
+Pomimo iż pracę Pottera uważa się za początek technologii MFC,
+dopiero po ponad 50 latach od jej publikacji
+znalazła ona praktyczne zastosowanie w oczyszczaniu i przetwarzaniu
+odpadów ściekowych na prąd elektryczny podczas lotów kosmicznych
+organizowanych przez NASA~\cite{Slate2019}.
 
 \subsection{Zastosowania MFC}\label{subsec:zastosowania-mfc}
-W ostatniej dekadzie zainteresowanie systemami BES,
-a w szczególności MFC, wzrosło diametralnie, co odzwierciedla wzrost
-liczby związanych z nimi publikacji przedstawiony na rys.~\ref{fig:1}.
-Pojawiające publikacje związane z MFC dotyczą różnych aspektów tej technologii.
-Wiele z nich skupia się na ogólnym zrozumieniu molekularnych podstaw
-działania tych systemów~\cite{Slate2019, Bruce2006, Lovley2006}, inne
-poruszają kwestie związane z ich konstrukcją i użyciem odpowiednich
-materiałów do budowy elektrod i membran~\cite{Kaur2020, Daud2015},
-a jeszcze inne skupiają się na bardzo istotnych aspektach ekonomicznych~\cite{Trapero2017}.
-Wysokie zainteresowanie technologią MFC w ostatnich latach wynika
-z potencjału do wykorzystania ich w celu jednoczesnego oczyszczania
-wód ściekowych, generowania energii elektrycznej oraz cennej biomasy,
-która mogłaby następnie zostać wykorzystana w biorafineriach do produkcji
-biopaliw, biopolimerów czy biochemikaliów.
 
 \begin{figure}[!b]
     \centering
@@ -35,7 +26,37 @@ biopaliw, biopolimerów czy biochemikaliów.
     \label{fig:1}
 \end{figure}
 
-\subsection{Podstawy molekularne}\label{subsec:podstawy-molekularne}
+W ostatniej dekadzie zainteresowanie systemami BES,
+a w szczególności MFC, wzrosło diametralnie, co odzwierciedla wzrost
+liczby związanych z nimi publikacji przedstawiony na rys.~\ref{fig:1}.
+Pojawiające publikacje związane z MFC
+dotyczą różnych aspektów tej technologii.
+Wiele z~nich skupia się na ogólnym zrozumieniu molekularnych podstaw
+działania tych systemów~\cite{Slate2019, Bruce2006, Lovley2006}, inne
+poruszają kwestie związane z ich konstrukcją i użyciem odpowiednich
+materiałów do budowy elektrod i membran~\cite{Kaur2020, Daud2015},
+a jeszcze inne skupiają się na bardzo istotnych
+aspektach ekonomicznych~\cite{Trapero2017}.
+Wysokie zainteresowanie technologią MFC w ostatnich latach wynika
+z~potencjału do wykorzystania ich w celu jednoczesnego oczyszczania
+wód ściekowych, generowania energii elektrycznej oraz cennej biomasy,
+która mogłaby następnie zostać wykorzystana w biorafineriach do produkcji
+biopaliw, biopolimerów i biochemikaliów.
+Niewątpliwymi zaletami tych systemów są również ich długi czas działania
+bez konieczności konserwacji i obsługi~\cite{Habermann1991}
+oraz niewymagające warunki otoczenia~\cite{Slate2019}.
+Obecne systemy oczyszczania ścieków wykorzystujące osad czynny
+zużywają od 0.3 do 0.6 kWh m\textsuperscript{-3} co w skali globalnej
+przekłada się na 4 \% całkowitego zużycia energii~\cite{AlSayed2020}.
+Wszystkie ww. zalety systemów MFC sprawiają natomiast, że mogłyby one
+być częściowym rozwiązaniem problemu nadmiernej akumulacji odpadów,
+umożliwiając ich pozytywnie energetyczną biokonwersję.
+Obecnie uważa się, że systemy te nie są w stanie całkowicie zastąpić
+tradycyjnych oczyszczalni ścieków, ale że mogłyby służyć
+jako jeden z komponentów nowoczesnych oczyszczalni połączonych
+z biorafineriami.
+
+\subsection{Podstawy molekularne działania MFC}\label{subsec:podstawy-molekularne}
 W systemach MFC, do generowania elektryczności, wykorzystuje się
 utleniająco-redukujący charakter reakcji metabolicznych
 przeprowadzanych przez mikroorganizmy, które możemy podzielić
@@ -45,8 +66,13 @@ elektrony) oraz zasiedlające katodę elektrotrofy
 Elektrogeny przeprowadzają procesy oddychania beztlenowego,
 utleniając znajdujące się w pożywce związki organiczne oraz
 wykorzystując anodę jako ostateczne źródło elektronów.
+Przykładem takiego procesu może być utlenianie octanu:
+\begin{equation}
+    \label{eq:1}
+    CH_3 COO^- + 4H_2 O \rightarrow 2HCO_3^- + 9H^+ + 8e^-
+\end{equation}
 Zdolność do transferu elektronów na powierzchnię metali (lub
-innych przewodników) wynika z naturalnego przystosowania tych
+innych przewodników) wynika z~naturalnego przystosowania tych
 organizmów do życia na powierzchni rud metali i wykorzystania
 ich jako ostateczny akceptor elektronów.
 Transfer elektronów na elektrodę może zachodzić na różne
@@ -68,11 +94,14 @@ Do najbardziej efektywnych elektrogenów należą
 oraz \textit{Rhodobacter spheroides}.
 Elektrotrofy są z kolei organizmami pobierającymi elektrony
 z powierzchni katody (za pośrednictwem mediatorów redox)
-i redukującymi CO$_2$, lub organizmami przeprowadzającymi fotosyntezę
+i redukującymi CO\textsubscript{2}, lub organizmami przeprowadzającymi fotosyntezę
 oksygeniczną~\cite{Santoro2017, Reddy2019}.
 Uwolniony w wyniku procesu fotosyntezy tlen jest następnie
-wykorzystywany w reakcji redukcji
-O$_2$~+~2H$^+$~+~2e$^-$~\textrightarrow~H$_2$O\@.
+wykorzystywany w reakcji redukcji tlenu do wody:
+\begin{equation}
+    \label{eq:2}
+    O_2 + 2H^+ + 2e^- \rightarrow H_2 O
+\end{equation}
 Użycie organizmów o wysokim tempie zużycia elektronów np.\ intensywnie
 fotosyntetyzujących alg, takich jak \textit{Chlorella vulgaris},
 lub cyjanobakterii z rodzaju \textit{Synechocystis} pozwala na efektywne
@@ -81,3 +110,13 @@ konieczności jej mechanicznego napowietrzania, co pozwala dodatkowo
 zmniejszyć koszty operacyjne.
 Należy jednak pamiętać, aby zapewnić odpowiednie warunki
 bytującym w komorze organizmom.
+
+\subsection{Badania}\label{subsec:badania}
+
+W niniejszej pracy skupiłem się na optymalizacji wzrostu organizmów
+elektrogenicznych (\textit{Rhodobacter spheroides})
+i elektrotroficznych (\textit{Synechocystis sp.} PCC 6803,
+konstrukty McCormick opisane w tab. \ref{tab:1})
+w środowisku o wysokim zanieczyszczeniu związkami
+organicznymi oraz na optymalizacji
+pomiarów napięcia elektrycznego generowanego przez obecne
