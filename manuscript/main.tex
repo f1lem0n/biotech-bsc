@@ -5,7 +5,9 @@
 \usepackage[british, polish]{babel}
 \usepackage{geometry}
 \usepackage{gensymb} %pakiet symboli
-\usepackage[upgreek, LGRgreek]{mathastext}
+%\usepackage[upgreek, LGRgreek]{mathastext}
+\usepackage{mathastext}
+\usepackage{upgreek}
 \usepackage{bm}
 \usepackage{lipsum}
 \usepackage{cite}
@@ -35,6 +37,12 @@
 
 \newpage
 \thispagestyle{empty}
+\tableofcontents
+
+\newpage
+\thispagestyle{empty}
+\input{abstracts.tex}
+\vspace*{3cm}
 \begin{flushright}
     Dziękuję Panu Profesorowi Dariuszowi Dzidze\\
     oraz pozostałym członkom Pracowni Metabolomiki\\
@@ -46,32 +54,24 @@
     \textit{Non omnis moriar!}
 \end{flushleft}
 
-
 \newpage
-\setcounter{page}{3}
-
-\tableofcontents
-
-\input{abstracts.tex}
-
+\setcounter{page}{4}
 \section{Wstęp}\label{sec:wstep}
 \input{introduction}
 
-\section{Metody}\label{sec:metody}
+\section{Materiały i metody}\label{sec:metody}
 \input{methodology}
 
-\section{Analiza danych}\label{sec:analiza-danych}
-\input{analysis}
+\section{Wyniki}\label{sec:wyniki}
+\input{results}
 
-\section{Dyskusja wyników}\label{sec:dyskusja}
-\input{discussion}
+\section{Wnioski}\label{sec:wnioski}
+\input{conclusions}
 
-\begin{otherlanguage}{polish}
-    \newpage
-    \thispagestyle{empty}
-    \bibliographystyle{unsrt}
-    \bibliography{ref}
-\end{otherlanguage}
+%\newpage
+\thispagestyle{empty}
+\bibliographystyle{unsrt}
+\bibliography{ref}
 
 \newpage
 \input{suplement.tex}
