@@ -1,6 +1,6 @@
-\babel@toc {polish}{}\relax 
-\babel@toc {british}{}\relax 
-\babel@toc {polish}{}\relax 
+\babel@toc {polish}{}
+\babel@toc {british}{}
+\babel@toc {polish}{}
 \contentsline {section}{\numberline {1}Wstęp}{4}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Historia MFC}{4}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Zastosowania MFC}{4}{subsection.1.2}%

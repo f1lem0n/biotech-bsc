@@ -1,48 +1,49 @@
-This is BibTeX, Version 0.99d
+This is BibTeX, Version 0.99d (TeX Live 2020/Debian)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
-Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: unsrt.bst
-Reallocating 'name_of_file' (item size: 1) to 4 items.
 Database file #1: ref.bib
-You've used 14 entries,
+Warning--entry type for "Puchalski2021" isn't style-file defined
+--line 242 of file ref.bib
+You've used 15 entries,
             1791 wiz_defined-function locations,
-            553 strings with 6685 characters,
-and the built_in function-call counts, 3351 in all, are:
-= -- 289
-> -- 173
+            557 strings with 6899 characters,
+and the built_in function-call counts, 3469 in all, are:
+= -- 297
+> -- 177
 < -- 0
-+ -- 63
-- -- 49
-* -- 269
-:= -- 552
-add.period$ -- 40
-call.type$ -- 14
-change.case$ -- 14
++ -- 65
+- -- 50
+* -- 270
+:= -- 569
+add.period$ -- 42
+call.type$ -- 15
+change.case$ -- 15
 chr.to.int$ -- 0
-cite$ -- 14
-duplicate$ -- 118
-empty$ -- 318
-format.name$ -- 49
-if$ -- 711
+cite$ -- 15
+duplicate$ -- 123
+empty$ -- 336
+format.name$ -- 50
+if$ -- 739
 int.to.chr$ -- 0
-int.to.str$ -- 14
+int.to.str$ -- 15
 missing$ -- 12
-newline$ -- 71
-num.names$ -- 14
-pop$ -- 26
+newline$ -- 75
+num.names$ -- 15
+pop$ -- 33
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 46
+skip$ -- 50
 stack$ -- 0
 substring$ -- 279
-swap$ -- 14
+swap$ -- 15
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 35
-width$ -- 16
-write$ -- 150
+while$ -- 36
+width$ -- 17
+write$ -- 158
+(There was 1 warning)
