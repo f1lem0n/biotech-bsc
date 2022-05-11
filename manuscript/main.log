@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2022.5.7)  10 MAY 2022 11:32
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2022.5.7)  11 MAY 2022 08:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -703,9 +703,6 @@ might try typing `S' now just to see what is salvageable.
 (/home/f1lem0n/Documents/git/licencjat/manuscript/main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 4FC48943DF0ADC05D1F06AE60CBE159A;2167.
