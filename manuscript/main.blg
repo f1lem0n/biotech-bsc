@@ -1,10 +1,12 @@
-This is BibTeX, Version 0.99d (TeX Live 2020/Debian)
+This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
+Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: unsrt.bst
+Reallocating 'name_of_file' (item size: 1) to 4 items.
 Database file #1: ref.bib
 Warning--entry type for "Puchalski2021" isn't style-file defined
---line 242 of file ref.bib
+--line 483 of file ref.bib
 You've used 15 entries,
             1791 wiz_defined-function locations,
             557 strings with 6899 characters,
