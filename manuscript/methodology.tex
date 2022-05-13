@@ -13,7 +13,8 @@ o pojemności 250 ml, membranę nafionową (\ldots),
 jako katodę — płytkę mosiężną o powierzchni całkowitej (\ldots)
 cm\textsuperscript{2}, jako anodę — 3 płytki z włókna węglowego firmy
 (\ldots) o łącznej powierzchni całkowitej (\ldots) cm\textsuperscript{2},
-lampę o natężeniu 100 mol fotonów m\textsuperscript{-2} s\textsuperscript{-1}
+lampę o natężeniu (\ldots) $\upmu$mol fotonów m\textsuperscript{-2} s\textsuperscript{-1}.
+Temperatura operacyjna układu była równa 20 \degree C\@.
 Do pomiarów różnicy potencjałów pomiędzy elektrodami
 w układzie MFC użyto multimetru PeakTech 4000 wraz
 z~dedykowanym oprogramowaniem do zbierania danych przy pomocy komputera.
@@ -23,7 +24,7 @@ MS Excel, OriginLabs oraz język programowania Python
 
 \subsection{Odczynniki chemiczne}\label{subsec:odczynniki}
 Kwas trifluorooctowy (TFA), odczynnik Bradforda, bufor fosforanowy (pH 7),
-media, wody ściekowe pochodzące z oczyszczalni w Myślenicach
+media, wody ściekowe (WW) pochodzące z oczyszczalni w Myślenicach
 (numeracja objaśniona w dodatku — tab.\ 1).
 
 \subsection{Wykorzystane szczepy}\label{subsec:szczepy}
@@ -39,10 +40,12 @@ Falcon (50 ml), w temperaturze 20 \degree C i natężeniu światła
 40 $\upmu$mol fotonów m\textsuperscript{-2} s\textsuperscript{-1}.
 
 \subsection{Badanie wzrostu \textit{R. spheroides} na wodach ściekowych}\label{subsec:rhodobacter}
+W tym eksperymencie badano wzrost \textit{R. spheroides} przy
+różnych rodzajach i rozcieńczeniach wód ściekowych w pożywce.
 Eksperyment wykonano w dwóch turach.
-W pierwszej turze, w probówkach Falcon 15 ml sporządzono
-mieszaniny M27 z~wodami ściekowymi nr 2, 3 i 4,
-w stężeniach 5 \%, 15 \% i~45~\% ($V$~=~14~ml).
+W pierwszej turze, w~probówkach Falcon 15 ml sporządzono
+mieszaniny M27 z~wodami ściekowymi nr 2, 3 i~4,
+w~stężeniach 5 \%, 15 \% i~45~\% ($V$~=~14~ml).
 Ustalono pH mieszanin do pH 7.
 Jako kontroli użyto czystego M27 (pH 6.8).
 Wszystkie próbki zaszczepiono 1 ml pierwotnej hodowli
@@ -52,13 +55,67 @@ spektrofotometru Unicam Helios $\upbeta$.
 Drugą turę eksperymentu przygotowano w~sposób analogiczny.
 Różnicą było testowanie innych stężeń wód ściekowych
 (15~\%, 45 \% i~80 \%).
-Próbki wykonano w tryplikatach.
+Hodowle wykonano w tryplikatach.
 Mierzono OD\textsubscript{595} przy pomocy czytnika
 mikropłytek BioRad iMark Microplate Reader
 (droga optyczna $l$ odpowiada 200 $\upmu$l roztworu w studzience).
 
-\subsection{Badanie aktywności MlrA w \textit{Synechocystis} McCormick 7}\label{subsec:mlra}
+\subsection{Badanie aktywności MlrA w \textit{Synechocystis sp.} PCC 6803 McCormick~7}\label{subsec:mlra}
+W tym eksperymencie mierzono aktywność MlrA w komórkach
+\textit{Synechocystis sp.} PCC 6803 przy
+różnych rodzajach WW w pożywce.
+W tym celu przygotowano mieszaniny BG-11 z WW2 i WW3
+w proporcjach 1:1 w objętościach po 40 ml.
+Kontrolą była czysta pożywka BG-11.
+Obliczono, że mając hodowlę macierzystą
+o OD\textsubscript{600} = 0.746, w celu osiągnięcia
+początkowego OD\textsubscript{600} = 0.200, należy zawiesić
+komórki z odwirowanych ((\ldots) RCF, 10 min) 10,72 ml hodowli
+pierwotnej w 40 ml nowej pożywki.
+Hodowle wykonano w tryplikatach.
+Markerem selekcyjnym była kanamycyna ($c$ = 50 $\upmu$g ml\textsuperscript{-1}).
+Zbierano próbki hodowli po 1 ml w 4, 7, 10 i~14 dniu eksperymentu
+i zamrażano (-20 \degree C).
+Po rozmrożeniu próbki homogenizowano (\ref{subsec:sprzet}),
+a~następnie odwirowywano ((\ldots) RCF, 5 min), a nadsącz
+zbierano do nowych probówek typu Eppendorf 1.5 ml.
+Na płytce 96-dołkowej przeprowadzono test aktywności MlrA\@.
+Do studzienek dodano po 45 $\upmu$l mikrocystyny (1.5 mg ml\textsuperscript{-1})
+i 5 $\upmu$l odpowiedniego, wcześniej zebranego nadsączu (lizatu).
+Reakcję prowadzono przez 1 h, po czym zatrzymano ją
+poprzez dodanie 5 $\upmu$l 1 \% TFA\@.
+Rozdział mieszaniny prowadzono przy pomocy techniki HPLC (\ref{subsec:sprzet}).
+Celem normalizacji obliczonych na podstawie danych z HPLC aktywności białka
+mierzono całkowite stężenie białka metodą Bradforda:
+5 $\upmu$l lizatu + 95 $\upmu$l buforu fosforanowego pH 7.0
++~100 $\upmu$l odczynnika Bradforda.
 
 \subsection{Pomiary napięcia w układzie MFC}\label{subsec:volt}
+W tym eksperymencie badano wpływ gęstości hodowli
+\textit{R. spheroides} w komorze z anodą na generowane
+w układzie MFC napięcie.
+W komorze z katodą znajdowały się komórki
+\textit{Synechocystis sp.} PCC 6803 McCormick 7
+zawieszone w 250 ml BG-11 + 50 \% WW2
+(OD\textsubscript{600} = 1.000).
+Początkowo w komorze z anodą znajdowało się 250 ml
+czystego M27, jednak na samej elektrodzie był
+obecny wcześniej zaadaptowany biofilm \textit{R. spheroides}.
+Dodawano po 1 ml stężonej zawiesiny \textit{R. spheroides}
+i, po zmieszaniu, mierzono OD\textsubscript{600} oraz
+zmiany napięcia w czasie do 220 min od momentu dodania
+kolejnej porcji zawiesiny komórek.
 
 \subsection{Produkcja MlrA w układzie MFC}\label{subsec:mfc}
+W tym eksperymencie mierzono aktywność MlrA
+w komórkach \textit{Synechocystis sp.} PCC 6803,
+kultywowanych na BG-11 + 50 \% WW2 w układzie MFC\@.
+W komorze z anodą znajdowały się komórki
+\textit{R. spheroides} w M27 + 50 \% WW2,
+o OD\textsubscript{600} = 0.200.
+W komorze z katodą umieszczono zawiesinę komórek
+\textit{Synechocystis sp.} PCC 6803 McCormick 7
+w BG-11 + 50 \% WW2 (OD\textsubscript{600} = 0.100).
+Tak przygotowane komórki kultywowano w układzie MFC (\ref{subsec:sprzet}).
+W 1, 4, 6 i~8 dniu eksperymentu z hodowli zbierano próbki
+celem analizy aktywności MlrA (\ref{subsec:mlra}).

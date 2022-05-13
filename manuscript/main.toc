@@ -11,8 +11,8 @@
 \contentsline {subsection}{\numberline {2.2}Odczynniki chemiczne}{7}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Wykorzystane szczepy}{7}{subsection.2.3}%
 \contentsline {subsection}{\numberline {2.4}Badanie wzrostu \textit {R. spheroides} na wodach ściekowych}{7}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}Badanie aktywności MlrA w \textit {Synechocystis} McCormick 7}{7}{subsection.2.5}%
-\contentsline {subsection}{\numberline {2.6}Pomiary napięcia w układzie MFC}{7}{subsection.2.6}%
-\contentsline {subsection}{\numberline {2.7}Produkcja MlrA w układzie MFC}{7}{subsection.2.7}%
-\contentsline {section}{\numberline {3}Wyniki}{7}{section.3}%
-\contentsline {section}{\numberline {4}Wnioski}{7}{section.4}%
+\contentsline {subsection}{\numberline {2.5}Badanie aktywności MlrA w \textit {Synechocystis sp.} PCC 6803 McCormick~7}{7}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Pomiary napięcia w układzie MFC}{8}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Produkcja MlrA w układzie MFC}{8}{subsection.2.7}%
+\contentsline {section}{\numberline {3}Wyniki}{8}{section.3}%
+\contentsline {section}{\numberline {4}Wnioski}{10}{section.4}%
