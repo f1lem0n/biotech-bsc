@@ -1,6 +1,6 @@
-\babel@toc {polish}{}\relax 
-\babel@toc {british}{}\relax 
-\babel@toc {polish}{}\relax 
+\babel@toc {polish}{}
+\babel@toc {british}{}
+\babel@toc {polish}{}
 \contentsline {section}{\numberline {1}Wstęp}{4}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Historia MFC}{4}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Zastosowania MFC}{4}{subsection.1.2}%
@@ -15,4 +15,4 @@
 \contentsline {subsection}{\numberline {2.6}Pomiary napięcia w układzie MFC}{8}{subsection.2.6}%
 \contentsline {subsection}{\numberline {2.7}Produkcja MlrA w układzie MFC}{8}{subsection.2.7}%
 \contentsline {section}{\numberline {3}Wyniki}{8}{section.3}%
-\contentsline {section}{\numberline {4}Wnioski}{10}{section.4}%
+\contentsline {section}{\numberline {4}Wnioski}{8}{section.4}%
