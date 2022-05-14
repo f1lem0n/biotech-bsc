@@ -15,4 +15,4 @@
 \contentsline {subsection}{\numberline {2.6}Pomiary napięcia w układzie MFC}{8}{subsection.2.6}%
 \contentsline {subsection}{\numberline {2.7}Produkcja MlrA w układzie MFC}{8}{subsection.2.7}%
 \contentsline {section}{\numberline {3}Wyniki}{8}{section.3}%
-\contentsline {section}{\numberline {4}Wnioski}{8}{section.4}%
+\contentsline {section}{\numberline {4}Wnioski}{9}{section.4}%
