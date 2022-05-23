@@ -5,32 +5,40 @@
 \usepackage[T1]{fontenc}
 \usepackage[british, polish]{babel}
 \usepackage{geometry}
-\usepackage{gensymb} %pakiet symboli
-%\usepackage[upgreek, LGRgreek]{mathastext}
+\usepackage{gensymb}
 \usepackage{upgreek}
 \usepackage{bm}
 \usepackage{lipsum}
 \usepackage{cite}
 \usepackage{graphicx}
 \usepackage{hyperref}
-\usepackage{seqsplit}
 \usepackage[table, xcdraw]{xcolor}
 \usepackage{mathptmx}
 \usepackage{fontspec}
 \usepackage{textcomp}
 \usepackage{adjustbox}
 \usepackage{amsmath}
+\usepackage[automake]{glossaries}
 
 %SETTING---------------------------
-%\defaultfontfeatures{LetterSpace=5}
 \setmainfont{Times New Roman}
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0pt}
 \linespread{1.25}
 \geometry{left=2.54cm, right=2.54cm, top=2.54cm, bottom=2.54cm}
-% \renewcommand{\thesection}{\arabic{section}.}
-% \renewcommand{\thesubsection}{\thesection\arabic{subsection}.}
 \newcommand*{\myfont}{\fontfamily{pcr}\selectfont}
+
+\makeglossaries
+\newacronym{mfc}{MFC}{microbial fuel cell}
+\newacronym{bes}{BES}{bio-electrochemical system}
+\newacronym{nasa}{NASA}{National Aeronautics and Space Administration}
+\newacronym{mlra}{MlrA}{microcystinase USTB-05}
+\newacronym{tfa}{TFA}{trifluoroacetic acid}
+\newacronym{ww}{WW}{wastewater}
+\newacronym{m27}{M27}{Medium 27}
+\newacronym{hplc}{HPLC}{high-performance liquid chromatography}
+\newacronym{sem}{SEM}{standard error mean}
+\newacronym{od}{OD}{optical density}
 
 %DOCUMENT--------------------------
 \begin{document}
@@ -39,24 +47,14 @@
 \newpage
 \thispagestyle{empty}
 \tableofcontents
+\vspace{\fill}
+\printglossary[type=\acronymtype, title={Wykaz skrótów}]
 
 \newpage
 \thispagestyle{empty}
 \vspace*{\fill}
-\input{abstracts.tex}
+\input{abstracts}
 \vspace*{\fill}
-
-%\vspace*{3cm}
-%\begin{flushright}
-%    Dziękuję Panu Profesorowi Dariuszowi Dzidze\\
-%    oraz pozostałym członkom Pracowni Metabolomiki\\
-%    za cierpliwość, wyrozumiałość, cenne rady\\
-%    oraz pomoc w realizacji eksperymentów.
-%\end{flushright}
-%\vspace*{\fill}
-%\begin{flushleft}
-%    \textit{Non omnis moriar!}
-%\end{flushleft}
 
 \newpage
 \setcounter{page}{4}
@@ -74,7 +72,6 @@
 
 \bibliographystyle{unsrt}
 \bibliography{ref}
-
 \end{document}
 
 
