@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.5.23)  15 JUN 2022 20:45
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.5.23)  16 JUN 2022 15:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1015,8 +1015,8 @@ deleted material, e.g., by typing `I$}'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-File: figures/voltage3.png Graphic file (type bmp)
-<figures/voltage3.png>
+File: figures/mfc-volt-boxplt.png Graphic file (type bmp)
+<figures/mfc-volt-boxplt.png>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1048,13 +1048,16 @@ fely (allowed).
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 7974D04E91E0F66D86FA4553F46BA8A7;2569.
  ) 
 Here is how much of TeX's memory you used:
  22405 strings out of 476133
- 447158 string characters out of 5803171
- 936609 words of memory out of 5000000
+ 447284 string characters out of 5803171
+ 937841 words of memory out of 5000000
  42741 multiletter control sequences out of 15000+600000
  486405 words of font info for 91 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
