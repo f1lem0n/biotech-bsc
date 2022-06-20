@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.5.23)  17 JUN 2022 13:32
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.5.23)  20 JUN 2022 10:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -866,7 +866,7 @@ File: figures/Herb_Uniwersytetu_Jagiellońskiego.svg.png Graphic file (type bmp)
 \openout3 = `main.ist'.
 
 ])
-(D:/_PROJECTS_/GIT/licencjat/manuscript/main.toc
+(./thanks.tex) [1] (D:/_PROJECTS_/GIT/licencjat/manuscript/main.toc
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
  5.
 
@@ -915,98 +915,58 @@ LaTeX Font Warning: Font shape `TS1/TimesNewRoman(0)/m/n' undefined
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
- (D:/_PROJECTS_/GIT/licencjat/manuscript/main.gls) [2] (./abstracts.tex
+ (D:/_PROJECTS_/GIT/licencjat/manuscript/main.gls) [3] (./abstracts.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 23.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 22.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 23.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 22.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 23.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 22.
 )
-[3] (./introduction.tex
+[4] (./introduction.tex
 File: figures/publications.png Graphic file (type bmp)
 <figures/publications.png>
- [4] [5]) (./methodology.tex [6]
-Overfull \hbox (3.8005pt too wide) in paragraph at lines 76--76
-[]\TU/TimesNewRoman(0)/b/n/14.4 Badanie aktywności MlrA w \TU/TimesNewRoman(0)/
+ [5] [6]) (./methodology.tex [7] [8]
+Overfull \hbox (2.20442pt too wide) in paragraph at lines 94--94
+[]\TU/TimesNewRoman(0)/b/n/14.4 Badanie aktywności mlrA w \TU/TimesNewRoman(0)/
 b/it/14.4 Synechocystis sp. \TU/TimesNewRoman(0)/b/n/14.4 PCC 6803 McCormick 7 
 
  []
 
-[7]) (./results.tex
+) (./results.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--11
+
+ []
+
 File: figures/ww.png Graphic file (type bmp)
 <figures/ww.png>
-File: figures/mlra_activity.png Graphic file (type bmp)
-<figures/mlra_activity.png>
-
-Runaway argument?
-{ Aktywność \acrshort {mlra} w lizatach komórek \textit {Synechocy\ETC.
-./results.tex:52: Paragraph ended before \NR@gettitle was complete.
-<to be read again> 
-                   \par 
-l.52     }
-          
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-Runaway argument?
-{\protect \numberline {\csname the\@captype \endcsname }{\ignorespaces \ETC.
-./results.tex:52: Paragraph ended before \addcontentsline was complete.
-<to be read again> 
-                   \par 
-l.52     }
-          
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-./results.tex:52: Extra }, or forgotten \endgroup.
-\Hy@tempa ...e the#1\endcsname }{\ignorespaces #2}
-                                                  }\begingroup \@parboxresto...
-l.52     }
-          
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./results.tex:52: Extra }, or forgotten \endgroup.
-\Hy@tempa ... the#1\endcsname }{\ignorespaces #2}}
-                                                  \begingroup \@parboxrestor...
-l.52     }
-          
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./results.tex:54: Extra }, or forgotten \endgroup.
-\@endfloatbox ...pagefalse \outer@nobreak \egroup 
-                                                  \color@endbox 
-l.54 \end{figure}
-                 
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
 File: figures/mfc-volt-boxplt.png Graphic file (type bmp)
 <figures/mfc-volt-boxplt.png>
+[9]
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+LaTeX Warning: Text page 10 contains only floats.
 
-) (./conclusions.tex)
-Overfull \hbox (0.7437pt too wide) in paragraph at lines 2--73
+[10]
+File: figures/mlra_activity.png Graphic file (type bmp)
+<figures/mlra_activity.png>
+) (./conclusions.tex
+Overfull \hbox (0.7437pt too wide) in paragraph at lines 2--14
 \TU/TimesNewRoman(0)/m/n/12 Wzrost \TU/TimesNewRoman(0)/m/it/12 R. sphaeroides\
 TU/TimesNewRoman(0)/m/n/12 , badany poprzez pomiar [][]OD[]$[]$, na pożywkach z
 awierających [][]WW[] w stę-
  []
 
-[8] [9] (D:/_PROJECTS_/GIT/licencjat/manuscript/main.bbl [10]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--30
+
+ []
+
+[11]) (D:/_PROJECTS_/GIT/licencjat/manuscript/main.bbl
 D:/_PROJECTS_/GIT/licencjat/manuscript/main.bbl:25: Misplaced alignment tab cha
 racter &.
 l.25 \newblock {\em Environmental Science &
@@ -1018,24 +978,36 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[11]) [12
+[12]) [13] (./suplement.tex
+File: figures/wwtp.png Graphic file (type bmp)
+<figures/wwtp.png>
+File: figures/totalprot.png Graphic file (type bmp)
+<figures/totalprot.png>
+File: figures/voltage1.png Graphic file (type bmp)
+<figures/voltage1.png>
+) [14
 runsystem(makeindex -s main.ist -t main.glg -o main.gls main.glo)...executed sa
 fely (allowed).
 
+] [15
+\glossaryentry{MlrA?\glossentry{mlra}|setentrycounter[]{page}"\glsnumberformat}
+{15}
+\glossaryentry{aMFC?\glossentry{amfc}|setentrycounter[]{page}"\glsnumberformat}
+{15}
 ] (D:/_PROJECTS_/GIT/licencjat/manuscript/main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 627C545F4EB47240CE39758E257585DF;2574.
+(rerunfilecheck)             Checksum: 84263D3A2D36E091008CB4F49A16E36E;2574.
  ) 
 Here is how much of TeX's memory you used:
- 22457 strings out of 476133
- 448217 string characters out of 5803171
- 939889 words of memory out of 5000000
- 42780 multiletter control sequences out of 15000+600000
+ 22527 strings out of 476133
+ 449673 string characters out of 5803171
+ 935240 words of memory out of 5000000
+ 42842 multiletter control sequences out of 15000+600000
  500030 words of font info for 130 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 91i,6n,90p,1113b,524s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 91i,11n,90p,1113b,524s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on D:/_PROJECTS_/GIT/licencjat/manuscript/main.pdf (12 pages).
+Output written on D:/_PROJECTS_/GIT/licencjat/manuscript/main.pdf (15 pages).

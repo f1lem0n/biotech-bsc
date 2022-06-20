@@ -78,17 +78,21 @@ Jason Dexter, Dariusz Dziga, Jing Lv, Junqi Zhu, Wojciech Strzalka, Anna
 \bibitem{Dexter2021}
 Jason Dexter, Alistair~J. McCormick, Pengcheng Fu, and Dariusz Dziga.
 \newblock {Microcystinase – a review of the natural occurrence, heterologous
-  expression, and biotechnological application of MlrA}, 2021.
+  expression, and biotechnological application of MlrA}.
+\newblock 189, 2021.
 
 \bibitem{Galat2022}
 Konstancja Gałat.
-\newblock {Badanie systemu ekspresji białka MlrA w Synechocystis z
-  jednoczesną bioremediacją ścieków komunalnych}, 2022.
+\newblock {Charakterystyka produkcji mikrocystynazy (MlrA) w szczepach
+  autotroficznych \textit{Synechocystis sp. PCC6803} z wykorzystaniem ścieków
+  komunalnych}.
+\newblock 2022.
 
 \bibitem{Puchalski2021}
 Jakub Puchalski.
 \newblock {Porównanie poziomu produkcji białka MlrA przez modyfikowane
   genetycznie szczepy sinic oraz analiza aktywności liofilizatów MlrA
-  przechowywanych w różnych temperaturach}, 2021.
+  przechowywanych w różnych temperaturach}.
+\newblock 2021.
 
 \end{thebibliography}
