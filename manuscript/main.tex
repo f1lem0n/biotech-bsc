@@ -18,7 +18,7 @@
 \usepackage{textcomp}
 \usepackage{adjustbox}
 \usepackage{amsmath}
-\usepackage[automake]{glossaries}
+\usepackage[automake]{glossaries-extra}
 
 %SETTING---------------------------
 \setmainfont{Times New Roman}
@@ -49,17 +49,15 @@
 \input{thanks}
 
 \newpage
-\setcounter{page}{3}
 \thispagestyle{empty}
 \tableofcontents
-\vspace{\fill}
-\printglossary[type=\acronymtype, title={Wykaz skrótów}]
 
 \newpage
 \thispagestyle{empty}
-\vspace*{\fill}
+\printglossary[type=\acronymtype, title={Wykaz skrótów}]
+
+\newpage
 \input{abstracts}
-\vspace*{\fill}
 
 \newpage
 \section{Wstęp}\label{sec:wstep}
